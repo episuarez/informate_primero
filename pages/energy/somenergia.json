@@ -1,0 +1,17 @@
+{
+    "TARIFA 2.0A SOM": {
+        "URL": "https://www.somenergia.coop/es/tarifas-de-electricidad/#tarifa2.0",
+        "POWER": "/html/body/div[1]/article/div/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/div/p/text()[2]",
+        "ENERGY": "/html/body/div[1]/article/div/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/div/p/text()",
+        "NOTES": ""
+    },
+    "TARIFA 2.0DHA SOM": {
+        "URL": "https://www.somenergia.coop/es/tarifas-de-electricidad/#tarifa2.0",
+        "POWER": "/html/body/div[1]/article/div/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/div/p/text()[2]",
+        "ENERGY": [
+            "/html/body/div[1]/article/div/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div/div[3]/div/p/text()[1]",
+            "/html/body/div[1]/article/div/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div/div[3]/div/p/text()[3]"
+        ],
+        "NOTES": ""
+    }
+}

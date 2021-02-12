@@ -1,0 +1,17 @@
+{
+    "TARIFA 2.0A SOM": {
+        "ENERGY": "0,127000",
+        "NOTES": "",
+        "POWER": "0,104229",
+        "URL": "https://www.somenergia.coop/es/tarifas-de-electricidad/#tarifa2.0"
+    },
+    "TARIFA 2.0DHA SOM": {
+        "ENERGY": [
+            "0,147000",
+            "0,075000"
+        ],
+        "NOTES": "",
+        "POWER": "0,104229",
+        "URL": "https://www.somenergia.coop/es/tarifas-de-electricidad/#tarifa2.0"
+    }
+}

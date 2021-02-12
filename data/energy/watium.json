@@ -1,0 +1,17 @@
+{
+    "Tarifa B\u00e1sica 2.0 A": {
+        "ENERGY": "0,164914",
+        "NOTES": "",
+        "POWER": "0,117927",
+        "URL": "https://watium.es/"
+    },
+    "Tarifa B\u00e1sica 2.0 DHA": {
+        "ENERGY": [
+            "0,164914",
+            "0,106521"
+        ],
+        "NOTES": "",
+        "POWER": "0,117927",
+        "URL": "https://watium.es/"
+    }
+}

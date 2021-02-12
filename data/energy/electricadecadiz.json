@@ -1,0 +1,17 @@
+{
+    "Con Discriminaci\u00f3n Horaria. Tarifa de Acceso 2.0DHA": {
+        "ENERGY": [
+            "0,163270",
+            "0,082145"
+        ],
+        "NOTES": "invierno, 12:00 y las 22:00 horas, verano 13:00 y las 23:00 horas",
+        "POWER": "0,120667",
+        "URL": "http://comercializadora.electricadecadiz.es/contratos-con-potencias-de-hasta-10kw"
+    },
+    "Sin Discriminaci\u00f3n Horaria. Tarifa de Acceso 2.0A": {
+        "ENERGY": "0,138351",
+        "NOTES": "",
+        "POWER": "0,120667",
+        "URL": "http://comercializadora.electricadecadiz.es/contratos-con-potencias-de-hasta-10kw"
+    }
+}

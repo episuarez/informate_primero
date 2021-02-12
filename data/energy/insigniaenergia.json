@@ -1,0 +1,17 @@
+{
+    "2.0 A": {
+        "ENERGY": "0,137584",
+        "NOTES": "",
+        "POWER": "0,111232",
+        "URL": "https://insigniaenergia.com/es/tarifas/"
+    },
+    "2.0 DHA": {
+        "ENERGY": [
+            "0,156209",
+            "0,089604"
+        ],
+        "NOTES": "",
+        "POWER": "0,111232",
+        "URL": "https://insigniaenergia.com/es/tarifas/"
+    }
+}

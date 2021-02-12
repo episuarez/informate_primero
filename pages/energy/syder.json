@@ -1,0 +1,27 @@
+{
+    "Tarifa 2.0A": {
+        "URL": "https://www.syder.es/tarifas",
+        "POWER": "/html/body/section/div/div[5]/div[1]/div/div[2]/table/tbody/tr/td[2]/text()",
+        "ENERGY": "/html/body/section/div/div[5]/div[1]/div/div[2]/table/tbody/tr/td[3]/text()",
+        "NOTES": ""
+    },
+    "Tarifa 2.0DHA": {
+        "URL": "https://www.syder.es/tarifas",
+        "POWER": "/html/body/section/div/div[6]/div[1]/div/div[2]/table/tbody/tr[1]/td[2]/text()",
+        "ENERGY": [
+            "/html/body/section/div/div[6]/div[1]/div/div[2]/table/tbody/tr[1]/td[3]/text()",
+            "/html/body/section/div/div[6]/div[1]/div/div[2]/table/tbody/tr[2]/td[3]/text()"
+        ],
+        "NOTES": ""
+    },
+    "Tarifa 2.0DHS": {
+        "URL": "https://www.syder.es/tarifas",
+        "POWER": "/html/body/section/div/div[7]/div[1]/div/div[2]/table/tbody/tr[1]/td[2]/text()",
+        "ENERGY": [
+            "/html/body/section/div/div[7]/div[1]/div/div[2]/table/tbody/tr[1]/td[3]/text()",
+            "/html/body/section/div/div[7]/div[1]/div/div[2]/table/tbody/tr[2]/td[3]/text()",
+            "/html/body/section/div/div[7]/div[1]/div/div[2]/table/tbody/tr[3]/td[3]/text()"
+        ],
+        "NOTES": ""
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Flash 24 horas": {
+        "ENERGY": "0,149635",
+        "NOTES": "",
+        "POWER": "0,131626",
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-24-horas-10kw/"
+    },
+    "Flash Noche": {
+        "ENERGY": [
+            "0,167190",
+            "0,092353"
+        ],
+        "NOTES": "Invierno: 12:00 a 22:00 - Verano: 13:00 a 23:00, Invierno: 22:00 a 12:00 - Verano: 23:00 a 13:00",
+        "POWER": "0,131626",
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-noche-10kw/"
+    },
+    "Flash ahorro": {
+        "ENERGY": [
+            "0,173398",
+            "0,106019",
+            "0,088227"
+        ],
+        "NOTES": "13:00 a 23:00, 07:00 a 13:00, 23:00 a 01:00, 01:00 a 07:00",
+        "POWER": "0,131626",
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/"
+    },
+    "Hogar 24 horas": {
+        "ENERGY": "0,173398",
+        "NOTES": "",
+        "POWER": "0,131626",
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/"
+    },
+    "Hogar Ahorro": {
+        "ENERGY": [
+            "0,155854",
+            "0,088473",
+            "0,070335"
+        ],
+        "NOTES": "13:00 a 23:00, 07:00 a 13:00, 23:00 a 01:00, 01:00 a 07:00",
+        "POWER": "0,123407",
+        "URL": "https://www.bassolsenergia.com/es/tarifas/hogar-ahorro-10kw/"
+    }
+}

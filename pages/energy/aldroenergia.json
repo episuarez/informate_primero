@@ -1,0 +1,17 @@
+{
+    "PREMIUM SIEMPRE Luz": {
+        "URL": "https://aldroenergia.com/tarifas-luz-y-gas/luz/",
+        "POWER": "/html/body/div[1]/section/div/section/div/div[2]/div[1]/form/table/tbody/tr[8]/td[2]/div/div[1]/div[1]/text()[2]",
+        "ENERGY": "/html/body/div[1]/section/div/section/div/div[2]/div[1]/form/table/tbody/tr[8]/td[2]/div/div[2]/div[1]/text()[2]",
+        "NOTES": ""
+    },
+    "PREMIUM NOCTURNA Luz": {
+        "URL": "https://aldroenergia.com/tarifas-luz-y-gas/luz/",
+        "POWER": "/html/body/div[1]/section/div/section/div/div[2]/div[1]/form/table/tbody/tr[8]/td[3]/div/div[1]/div[1]/text()[2]",
+        "ENERGY": [
+            "/html/body/div[1]/section/div/section/div/div[2]/div[1]/form/table/tbody/tr[8]/td[3]/div/div[2]/div[1]/text()[2]",
+            "/html/body/div[1]/section/div/section/div/div[2]/div[1]/form/table/tbody/tr[8]/td[3]/div/div[2]/div[1]/text()[4]"
+        ],
+        "NOTES": "Invierno: De 22:00h a 12:00h (desde noviembre a marzo) Verano: 23:00 a 13h (desde marzo a noviembre)"
+    }
+}

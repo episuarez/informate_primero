@@ -1,0 +1,17 @@
+{
+    "2.0A0 tarifa fija": {
+        "ENERGY": "0,138027",
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://electracaldenseenergia.com/es/tarifas/"
+    },
+    "2.0DHA0 discriminaci\u00f3n horaria": {
+        "ENERGY": [
+            "0,159010",
+            "0,080220"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://electracaldenseenergia.com/es/tarifas/"
+    }
+}

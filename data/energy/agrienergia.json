@@ -1,0 +1,17 @@
+{
+    "Tarifa 10 eficiente": {
+        "ENERGY": [
+            "0,155092",
+            "0,083620"
+        ],
+        "NOTES": "Verano: 13 h a 23 h - Invierno: 12 h a 22 h, Verano: de 23 h a 13 h - Invierno: de 22 h a 12 h.",
+        "POWER": "0,123069",
+        "URL": "http://www.agrienergia.com/tarifa-domestica-10/?lang=es"
+    },
+    "Tarifa 10 tranquilidad": {
+        "ENERGY": "0,132545",
+        "NOTES": "",
+        "POWER": "0,123069",
+        "URL": "http://www.agrienergia.com/tarifa-domestica-10/?lang=es"
+    }
+}

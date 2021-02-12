@@ -1,0 +1,17 @@
+{
+    "PREMIUM NOCTURNA Luz": {
+        "ENERGY": [
+            "0,160146",
+            "0,087293"
+        ],
+        "NOTES": "Invierno: De 22:00h a 12:00h (desde noviembre a marzo) Verano: 23:00 a 13h (desde marzo a noviembre)",
+        "POWER": "0,104229",
+        "URL": "https://aldroenergia.com/tarifas-luz-y-gas/luz/"
+    },
+    "PREMIUM SIEMPRE Luz": {
+        "ENERGY": "0,139058",
+        "NOTES": "",
+        "POWER": "0,104229",
+        "URL": "https://aldroenergia.com/tarifas-luz-y-gas/luz/"
+    }
+}

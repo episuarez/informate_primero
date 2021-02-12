@@ -1,0 +1,17 @@
+{
+    "Tarifa 10 tranquilidad": {
+        "URL": "http://www.agrienergia.com/tarifa-domestica-10/?lang=es",
+        "POWER": "/html/body/div[1]/div/div/div/div/div[1]/section/div/div/div/section[4]/div/div/div[2]/div/div/div[1]/div/div/div[2]/span/text()",
+        "ENERGY": "/html/body/div[1]/div/div/div/div/div[1]/section/div/div/div/section[4]/div/div/div[2]/div/div/section[2]/div/div/div/div/div/div[3]/div/div/div[2]/span/text()",
+        "NOTES": ""
+    },
+    "Tarifa 10 eficiente": {
+        "URL": "http://www.agrienergia.com/tarifa-domestica-10/?lang=es",
+        "POWER": "/html/body/div[1]/div/div/div/div/div[1]/section/div/div/div/section[6]/div/div/div[2]/div/div/div[3]/div/div/div[2]/span/text()",
+        "ENERGY": [
+            "/html/body/div[1]/div/div/div/div/div[1]/section/div/div/div/section[6]/div/div/div[2]/div/div/div[1]/div/div/div[2]/span/text()",
+            "/html/body/div[1]/div/div/div/div/div[1]/section/div/div/div/section[6]/div/div/div[2]/div/div/div[2]/div/div/div[2]/span/text()"
+        ],
+        "NOTES": "Verano: 13 h a 23 h - Invierno: 12 h a 22 h, Verano: de 23 h a 13 h - Invierno: de 22 h a 12 h."
+    }
+}

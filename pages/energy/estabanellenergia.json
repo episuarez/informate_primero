@@ -1,0 +1,17 @@
+{
+    "Plan Premium": {
+        "URL": "https://www.estabanellenergia.cat/es/planes-hogar/plan-premium/",
+        "POWER": "/html/body/div[4]/section/div/div/div[5]/div[2]/div/ul/li[1]/text()[2]",
+        "ENERGY": "/html/body/div[4]/section/div/div/div[5]/div[2]/div/ul/li[2]/text()[2]",
+        "NOTES": ""
+    },
+    "Plan Luz Día y Noche": {
+        "URL": "https://www.estabanellenergia.cat/es/planes-hogar/plan-luz-dia-y-noche/",
+        "POWER": "/html/body/div[4]/section/div/div/div[5]/div[2]/div/ul/li[1]/text()[2]",
+        "ENERGY": [
+            "/html/body/div[4]/section/div/div/div[5]/div[2]/div/ul/li[2]/text()[2]",
+            "/html/body/div[4]/section/div/div/div[5]/div[2]/div/ul/li[2]/text()[3]"
+        ],
+        "NOTES": ""
+    }
+}

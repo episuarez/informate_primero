@@ -1,0 +1,52 @@
+{
+    "Fija 24h": {
+        "ENERGY": "0,126750",
+        "NOTES": "",
+        "POWER": "0,106994",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    },
+    "Fija DHS": {
+        "ENERGY": [
+            "0,158900",
+            "0,082560",
+            "0,069000"
+        ],
+        "NOTES": "10h (13:00 a 23:00), 8h (23:00 a 1:00 y 7:00-13:00), 6h (1:00 a 7:00)",
+        "POWER": "0,109940",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    },
+    "Fija D\u00fao": {
+        "ENERGY": [
+            "0,149900",
+            "0,069990"
+        ],
+        "NOTES": "10h (12:00 a 22:00), 14h (22:00 a 12:00)",
+        "POWER": "0,106994",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    },
+    "Indexada 24h": {
+        "ENERGY": "0,139960",
+        "NOTES": "",
+        "POWER": "0,106994",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    },
+    "Indexada DHS": {
+        "ENERGY": [
+            "0,157928",
+            "0,086206",
+            "0,061163"
+        ],
+        "NOTES": "10h (13:00 a 23:00), 8h (23:00 a 1:00 y 7:00-13:00), 6h (1:00 a 7:00)",
+        "POWER": "0,109940",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    },
+    "Indexada D\u00fao": {
+        "ENERGY": [
+            "0,163558",
+            "0,084251"
+        ],
+        "NOTES": "10h (12:00 a 22:00), 14h (22:00 a 12:00)",
+        "POWER": "0,106994",
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19"
+    }
+}

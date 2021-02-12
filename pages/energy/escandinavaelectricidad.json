@@ -1,0 +1,23 @@
+{
+    "Tarifa Transparente": {
+        "URL": "https://escandinavaelectricidad.es/tarifas/",
+        "POWER": "/html/body/div[1]/div/div/div/div[2]/div[1]/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/text()",
+        "ENERGY": "/html/body/div[1]/div/div/div/div[2]/div[1]/div/div[2]/div/div/div[2]/table/tbody/tr/td[3]/text()",
+        "NOTES": "PVPC + Cuota 3.90€ al mes"
+    },
+    "Tarifa DAG": {
+        "URL": "https://escandinavaelectricidad.es/tarifas/",
+        "POWER": "/html/body/div[1]/div/div/div/div[2]/div[3]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[2]/text()",
+        "ENERGY": "/html/body/div[1]/div/div/div/div[2]/div[3]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[3]/text()",
+        "NOTES": ""
+    },
+    "Tarifa NATT": {
+        "URL": "https://escandinavaelectricidad.es/tarifas/",
+        "POWER": "/html/body/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[2]/text()",
+        "ENERGY": [
+            "/html/body/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[3]/text()",
+            "/html/body/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[4]/text()"
+        ],
+        "NOTES": ""
+    }
+}

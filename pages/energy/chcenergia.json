@@ -1,0 +1,23 @@
+{
+    "Confianza Base < 3KW": {
+        "URL": "https://chcenergia.es/tarifa-luz/confianza-base/",
+        "POWER": "/html/body/div[1]/main/article/div/div[2]/div[2]/div[2]/p[2]/text()",
+        "ENERGY": "/html/body/div[1]/main/article/div/div[2]/div[2]/div[3]/p[2]/text()",
+        "NOTES": ""
+    },
+    "Confianza Base 3 - 10KW": {
+        "URL": "https://chcenergia.es/tarifa-luz/confianza-base/",
+        "POWER": "/html/body/div[1]/main/article/div/div[2]/div[2]/div[2]/p[4]/text()",
+        "ENERGY": "/html/body/div[1]/main/article/div/div[2]/div[2]/div[3]/p[4]/text()",
+        "NOTES": ""
+    },
+    "Confianza Base Día y Noche": {
+        "URL": "https://chcenergia.es/tarifa-luz/confianza-base-dia-y-noche/",
+        "POWER": "/html/body/div[1]/main/article/div/div[2]/div[2]/div[2]/p[2]/text()",
+        "ENERGY": [
+            "/html/body/div[1]/main/article/div/div[2]/div[2]/div[3]/p[2]/text()",
+            "/html/body/div[1]/main/article/div/div[2]/div[2]/div[4]/p[2]/text()"
+        ],
+        "NOTES": ""
+    }
+}

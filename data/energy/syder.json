@@ -1,0 +1,27 @@
+{
+    "Tarifa 2.0A": {
+        "ENERGY": "0,138935",
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.syder.es/tarifas"
+    },
+    "Tarifa 2.0DHA": {
+        "ENERGY": [
+            "0,160189",
+            "0,088028"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.syder.es/tarifas"
+    },
+    "Tarifa 2.0DHS": {
+        "ENERGY": [
+            "0,160139",
+            "0,096136",
+            "0,080082"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.syder.es/tarifas"
+    }
+}

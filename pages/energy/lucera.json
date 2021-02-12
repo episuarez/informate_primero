@@ -1,0 +1,14 @@
+{
+    "Precio coste": {
+        "URL": "https://lucera.es/tarifas-luz-precio-coste",
+        "POWER": "/html/body/main/section[5]/div/div[1]/div[2]/div/div[1]/div[7]/div[2]/span[1]/text()",
+        "ENERGY": "/html/body/main/section[5]/div/div[1]/div[2]/div/div[1]/div[4]/div[2]/span[1]/text()",
+        "NOTES": ""
+    },
+    "Precio fijo": {
+        "URL": "https://lucera.es/tarifas-luz-precio-fijo",
+        "POWER": "/html/body/main/section[5]/div/div[1]/div[2]/div/div/div[6]/div[2]/span[1]/text()",
+        "ENERGY": "/html/body/main/section[5]/div/div[1]/div[2]/div/div/div[4]/div[2]/span[1]/text()",
+        "NOTES": ""
+    }
+}

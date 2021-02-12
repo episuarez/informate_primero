@@ -1,0 +1,17 @@
+{
+    "TARIFA LECHUZA": {
+        "ENERGY": [
+            "0,143350",
+            "0,069360"
+        ],
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.pepeenergy.com/tarifas-luz"
+    },
+    "TARIFA PERIQUITO": {
+        "ENERGY": "0,122260",
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.pepeenergy.com/tarifas-luz"
+    }
+}

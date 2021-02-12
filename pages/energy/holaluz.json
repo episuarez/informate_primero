@@ -1,0 +1,18 @@
+{
+    "Clásica": {
+        "URL": "https://www.holaluz.com/tarifas-electricidad/",
+        "POWER": "/html/body/div[2]/div/div/div[2]/div/div[1]/div/div[2]/div/div[4]/span/strong/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": "/html/body/div[2]/div/div/div[2]/div/div[1]/div/div[2]/div/div[3]/div/div/span[2]/text()",
+        "SHOW_DATA": "document.evaluate('/html/body/div[2]/div/div/div[2]/div/section[2]/div[2]/div/div[1]/div/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();",
+        "NOTES": ""
+    },
+    "Sin Sorpresas": {
+        "URL": "https://www.holaluz.com/tarifas-electricidad/",
+        "POWER": "/html/body/div[2]/div/div/div[2]/div/div[1]/div/div[2]/div/div[4]/span/strong/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": "/html/body/div[2]/div/div/div[2]/div/div[1]/div/div[2]/div/div[3]/div/div/span[2]/text()",
+        "SHOW_DATA": "document.evaluate('/html/body/div[2]/div/div/div[2]/div/section[2]/div[2]/div/div[1]/div/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();",
+        "NOTES": ""
+    }
+}

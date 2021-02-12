@@ -1,0 +1,49 @@
+{
+    "Plan Estable": {
+        "URL": "https://www.iberdrola.es/luz/plan-estable",
+        "POWER": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/div/div[3]/div/div[1]/span[1]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div/div[1]/span[1]/text()",
+        "NOTES": ""
+    },
+    "Plan Elige 8h": {
+        "URL": "https://www.iberdrola.es/luz/plan-elige-8-horas",
+        "POWER": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/div/div[3]/div/div[1]/span[1]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div[1]/div[1]/span[1]/text()",
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]/div[1]/div[1]/span[1]/text()"
+        ],
+        "NOTES": "Elige las 8 horas del día en las que quieres ahorrar más"
+    },
+    "Plan Noche": {
+        "URL": "https://www.iberdrola.es/luz/plan-noche",
+        "POWER": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/div/div[3]/div/div[1]/span[1]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div[1]/div[1]/span[1]/text()",
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]/div[1]/div[1]/span[1]/text()"
+        ],
+        "NOTES": "Pagarás menos por tu consumo de luz de 23h a 13h en verano, o de 22h a 12h en invierno."
+    },
+    "Plan Invierno": {
+        "URL": "https://www.iberdrola.es/luz/plan-invierno",
+        "POWER": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/div/div[3]/div/div[1]/span[1]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div[1]/div[1]/span[1]/text()",
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]/div[1]/div[1]/span[1]/text()"
+        ],
+        "NOTES": "Ahorra del 1 de diciembre al 1 de marzo, y los fines de semana a partir del viernes a las 15h."
+    },
+    "Plan Verano": {
+        "URL": "https://www.iberdrola.es/luz/plan-verano",
+        "POWER": "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/div/div[3]/div/div[1]/span[1]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div[1]/div[1]/span[1]/text()",
+            "/html/body/div/main/div[4]/section[3]/div[1]/div[1]/div/div[1]/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]/div[1]/div[1]/span[1]/text()"
+        ],
+        "NOTES": "Ahorrarás del 15 de junio al 15 de septiembre y los fines de semana a partir del viernes a las 15h."
+    }
+}

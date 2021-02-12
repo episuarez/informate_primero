@@ -1,0 +1,11 @@
+{
+    "DISCRIMINACI\u00d3N HORARIA": {
+        "ENERGY": [
+            "0,142450",
+            "0,065200"
+        ],
+        "NOTES": "12h a 22h(invierno) y 13h a 23h(verano)",
+        "POWER": "0,104230",
+        "URL": "http://flipenergia.com/tarifas#tarifashorarias"
+    }
+}

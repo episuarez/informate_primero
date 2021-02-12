@@ -1,0 +1,30 @@
+{
+    "Precio Fijo": {
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado",
+        "POWER": "/html/body/div[2]/main/div[2]/div[1]/div/table[1]/tbody/tr[2]/td[1]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": "/html/body/div[2]/main/div[2]/div[1]/div/table[1]/tbody/tr[2]/td[2]/text()",
+        "NOTES": ""
+    },
+    "Precio Fijo con Discriminación Horaria": {
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado",
+        "POWER": "/html/body/div[2]/main/div[2]/div[1]/div/table[3]/tbody/tr[3]/td[1]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[2]/main/div[2]/div[1]/div/table[3]/tbody/tr[3]/td[2]/text()",
+            "/html/body/div[2]/main/div[2]/div[1]/div/table[3]/tbody/tr[3]/td[3]/text()"
+        ],
+        "NOTES": ""
+    },
+    "Precio Fijo con Discriminación Horaria Supervalle": {
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado",
+        "POWER": "/html/body/div[2]/main/div[2]/div[1]/div/table[5]/tbody/tr[3]/td[1]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[2]/main/div[2]/div[1]/div/table[5]/tbody/tr[3]/td[2]/text()",
+            "/html/body/div[2]/main/div[2]/div[1]/div/table[5]/tbody/tr[3]/td[3]/text()",
+            "/html/body/div[2]/main/div[2]/div[1]/div/table[5]/tbody/tr[3]/td[4]/text()"
+        ],
+        "NOTES": ""
+    }
+}

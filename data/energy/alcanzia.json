@@ -1,0 +1,23 @@
+{
+    "FIX 24": {
+        "ENERGY": "0,121540",
+        "NOTES": "",
+        "POWER": "0,104228",
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-24/"
+    },
+    "FIX Ma\u00f1anas": {
+        "ENERGY": [
+            "0,141880",
+            "0,071510"
+        ],
+        "NOTES": "",
+        "POWER": "0,104228",
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-mananas/"
+    },
+    "FIX Plus": {
+        "ENERGY": "0,106698",
+        "NOTES": "",
+        "POWER": "0,104229",
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-24-plus/"
+    }
+}

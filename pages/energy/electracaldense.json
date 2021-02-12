@@ -1,0 +1,19 @@
+{
+    "2.0A0 tarifa fija": {
+        "URL": "https://electracaldenseenergia.com/es/tarifas/",
+        "POWER": "/html/body/div[1]/main/div/div/div/div/div/article/div/div/div/div/div/section[2]/div/div/div/div/div/section[1]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[3]/div/div/div/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": "/html/body/div[1]/main/div/div/div/div/div/article/div/div/div/div/div/section[2]/div/div/div/div/div/section[1]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[4]/div/div/div/text()",
+        "NOTES": ""
+    },
+    "2.0DHA0 discriminación horaria": {
+        "URL": "https://electracaldenseenergia.com/es/tarifas/",
+        "POWER": "/html/body/div[1]/main/div/div/div/div/div/article/div/div/div/div/div/section[2]/div/div/div/div/div/section[1]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[3]/div/div/div/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div/div/div/div/article/div/div/div/div/div/section[2]/div/div/div/div/div/section[1]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[2]/td[4]/div/div/div/text()",
+            "/html/body/div[1]/main/div/div/div/div/div/article/div/div/div/div/div/section[2]/div/div/div/div/div/section[1]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[3]/td[4]/div/div/div/text()"
+        ],
+        "NOTES": ""
+    }
+}

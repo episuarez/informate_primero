@@ -1,0 +1,43 @@
+{
+    "Flash 24 horas": {
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-24-horas-10kw/",
+        "POWER": "/html/body/main/section/div[2]/div[3]/div[1]/div[1]/div/div[1]/p[2]/text()",
+        "ENERGY": "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[2]/text()",
+        "NOTES": ""
+    },
+    "Flash Noche": {
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-noche-10kw/",
+        "POWER": "/html/body/main/section/div[2]/div[3]/div[1]/div[1]/div/div[1]/p[2]/text()",
+        "ENERGY": [
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[2]/text()",
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[3]/text()"
+        ],
+        "NOTES": "Invierno: 12:00 a 22:00 - Verano: 13:00 a 23:00, Invierno: 22:00 a 12:00 - Verano: 23:00 a 13:00"
+    },
+    "Flash ahorro": {
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/",
+        "POWER": "/html/body/main/section/div[2]/div[3]/div[1]/div[1]/div/div[1]/p[2]/text()",
+        "ENERGY": [
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[2]/text()",
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[3]/text()",
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[4]/text()"
+        ],
+        "NOTES": "13:00 a 23:00, 07:00 a 13:00, 23:00 a 01:00, 01:00 a 07:00"
+    },
+    "Hogar 24 horas": {
+        "URL": "https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/",
+        "POWER": "/html/body/main/section/div[2]/div[3]/div[1]/div[1]/div/div[1]/p[2]/text()",
+        "ENERGY": "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[2]/text()",
+        "NOTES": ""
+    },
+    "Hogar Ahorro": {
+        "URL": "https://www.bassolsenergia.com/es/tarifas/hogar-ahorro-10kw/",
+        "POWER": "/html/body/main/section/div[2]/div[3]/div[1]/div[1]/div/div[1]/p[2]/text()",
+        "ENERGY": [
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[2]/text()",
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[3]/text()",
+            "/html/body/main/section/div[2]/div[3]/div[1]/div[2]/div/div[1]/p[4]/text()"
+        ],
+        "NOTES": "13:00 a 23:00, 07:00 a 13:00, 23:00 a 01:00, 01:00 a 07:00"
+    }
+}

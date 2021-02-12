@@ -1,0 +1,27 @@
+{
+    "24h": {
+        "URL": "https://www.peusa.org/llum/?lang=es",
+        "POWER": "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[3]/td[2]/span/text()",
+        "ENERGY": "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[3]/td[3]/span/span/text()",
+        "NOTES": ""
+    },
+    "Nocturna": {
+        "URL": "https://www.peusa.org/llum/?lang=es",
+        "POWER": "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[4]/td[2]/span/text()",
+        "ENERGY": [
+            "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[4]/td[3]/span/text()",
+            "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[4]/td[4]/span/text()"
+        ],
+        "NOTES": ""
+    },
+    "Mobilidad": {
+        "URL": "https://www.peusa.org/llum/?lang=es",
+        "POWER": "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[2]/span/text()",
+        "ENERGY": [
+            "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[3]/span/text()",
+            "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[4]/span/text()",
+            "/html/body/div[1]/div[2]/div[1]/article/div/div/div/div/div[5]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[5]/span/text()"
+        ],
+        "NOTES": ""
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "TARIFA 2.0.A": {
+        "ENERGY": "0,126941",
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.serosense.com/es/tarifas-electrica-serosense.html"
+    },
+    "TARIFA 2.0.A DH": {
+        "ENERGY": [
+            "0,139856",
+            "0,073864"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.serosense.com/es/tarifas-electrica-serosense.html"
+    }
+}

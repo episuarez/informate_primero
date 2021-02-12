@@ -1,0 +1,23 @@
+{
+    "Tarifa DAG": {
+        "ENERGY": "0,134000",
+        "NOTES": "",
+        "POWER": "0,107000",
+        "URL": "https://escandinavaelectricidad.es/tarifas/"
+    },
+    "Tarifa NATT": {
+        "ENERGY": [
+            "0,163000",
+            "0,087000"
+        ],
+        "NOTES": "",
+        "POWER": "0,107000",
+        "URL": "https://escandinavaelectricidad.es/tarifas/"
+    },
+    "Tarifa Transparente": {
+        "ENERGY": "0,131655",
+        "NOTES": "PVPC + Cuota 3.90\u20ac al mes",
+        "POWER": "0,112757",
+        "URL": "https://escandinavaelectricidad.es/tarifas/"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "TARIFA 2.0.A": {
+        "URL": "https://www.serosense.com/es/tarifas-electrica-serosense.html",
+        "POWER": "/html/body/div[1]/div/div/div[1]/div[4]/div/div/div/main/div/div[2]/table[1]/tbody/tr[2]/td[1]/text()",
+        "ENERGY": "/html/body/div[1]/div/div/div[1]/div[4]/div/div/div/main/div/div[2]/table[1]/tbody/tr[2]/td[2]/text()",
+        "NOTES": ""
+    },
+    "TARIFA 2.0.A DH": {
+        "URL": "https://www.serosense.com/es/tarifas-electrica-serosense.html",
+        "POWER": "/html/body/div[1]/div/div/div[1]/div[4]/div/div/div/main/div/div[2]/table[2]/tbody/tr[2]/td[1]/text()",
+        "ENERGY": [
+            "/html/body/div[1]/div/div/div[1]/div[4]/div/div/div/main/div/div[2]/table[2]/tbody/tr[2]/td[2]/text()",
+            "/html/body/div[1]/div/div/div[1]/div[4]/div/div/div/main/div/div[2]/table[2]/tbody/tr[3]/td[2]/text()"
+        ],
+        "NOTES": ""
+    }
+}

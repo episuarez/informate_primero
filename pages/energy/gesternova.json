@@ -1,0 +1,27 @@
+{
+    "MeCambio": {
+        "URL": "https://gesternova.com/tarifas-luz/",
+        "POWER": "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[1]/section/div/ul/li[2]/ul/li/p/strong/text()",
+        "ENERGY": "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[1]/section/div/ul/li[1]/ul/li[1]/p/strong/text()",
+        "NOTES": ""
+    },
+    "Noche y día": {
+        "URL": "https://gesternova.com/tarifas-luz/",
+        "POWER": "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[2]/section/div/ul/li[2]/ul/li/p/strong/text()",
+        "ENERGY": [
+            "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[2]/section/div/ul/li[1]/ul/li[1]/p/strong/text()",
+            "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[2]/section/div/ul/li[1]/ul/li[2]/p/strong/text()"
+        ],
+        "NOTES": ""
+    },
+    "SuperValle": {
+        "URL": "https://gesternova.com/tarifas-luz/",
+        "POWER": "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[3]/section/div/ul/li[2]/ul/li/p/strong/text()",
+        "ENERGY": [
+            "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[3]/section/div/ul/li[1]/ul/li[1]/p/strong/text()",
+            "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[3]/section/div/ul/li[1]/ul/li[2]/p/strong/text()",
+            "/html/body/div[2]/div[1]/main/div/div/div/section/div/div[2]/ul/li[3]/section/div/ul/li[1]/ul/li[3]/p/strong/text()"
+        ],
+        "NOTES": ""
+    }
+}

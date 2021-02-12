@@ -1,0 +1,54 @@
+{
+    "One Luz": {
+        "ENERGY": "0,127003",
+        "NOTES": "",
+        "POWER": "0,112757",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/one/tarifa-one-luz"
+    },
+    "One Luz Nocturna": {
+        "ENERGY": [
+            "0,158614",
+            "0,158614"
+        ],
+        "NOTES": "Tarifa barata de 22.00 a 12.00 h (horario de invierno) o de 23.00 a 13.00 h (horario de verano).",
+        "POWER": "0,112757",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/one/one-luz-nocturna"
+    },
+    "Tempo Happy 2Horas": {
+        "ENERGY": [
+            "0",
+            "0,163636"
+        ],
+        "NOTES": "Dos horas seguidas gratis, las que t\u00fa elijas.",
+        "POWER": "0,131002",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-2-horas"
+    },
+    "Tempo Happy 50Horas": {
+        "ENERGY": [
+            "0",
+            "0,163636"
+        ],
+        "NOTES": "Gratis las 50 horas que m\u00e1s consumes.",
+        "POWER": "0,131002",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-50-horas"
+    },
+    "Tempo Happy D\u00eda": {
+        "ENERGY": [
+            "0",
+            "0,163636"
+        ],
+        "NOTES": "Eliges el d\u00eda de la semana que prefieras y no pagar\u00e1s nada por la luz que consumas.",
+        "POWER": "0,131002",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-dia"
+    },
+    "Tempo Verde Supervalle": {
+        "ENERGY": [
+            "0,162893",
+            "0,098486",
+            "0,086218"
+        ],
+        "NOTES": "Horas Supervalle de 1:00 horas a 7:00 horas. Horas Valle de 7:00 horas a 13:00 horas y de 23:00 horas a 1:00 horas. Horas Punta de 13:00 horas a 23:00 horas.",
+        "POWER": "0,124452",
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-verde-supervalle"
+    }
+}

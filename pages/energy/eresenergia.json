@@ -1,0 +1,52 @@
+{
+    "Indexada 24h": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[2]/div[1]/table[1]/tbody/tr/td/text()[1]",
+        "ENERGY": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[2]/div[1]/table[2]/tbody/tr/td/span/text()",
+        "NOTES": ""
+    },
+    "Indexada Dúo": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[3]/div[1]/table[1]/tbody/tr/td/text()[1]",
+        "ENERGY": [
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[3]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[1]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[3]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[2]"
+        ],
+        "NOTES": "10h (12:00 a 22:00), 14h (22:00 a 12:00)"
+    },
+    "Indexada DHS": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[4]/div[1]/table[1]/tbody/tr/td/text()[1]",
+        "ENERGY": [
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[4]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[1]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[4]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[2]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[1]/div[4]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[3]"
+        ],
+        "NOTES": "10h (13:00 a 23:00), 8h (23:00 a 1:00 y 7:00-13:00), 6h (1:00 a 7:00)"
+    },
+    "Fija 24h": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[3]/div[1]/table[1]/tbody/tr[1]/td/text()[1]",
+        "ENERGY": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[3]/div[1]/table[2]/tbody/tr/td/text()",
+        "NOTES": ""
+    },
+    "Fija Dúo": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[4]/div[1]/table[1]/tbody/tr/td/text()[1]",
+        "ENERGY": [
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[4]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[1]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[4]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[2]"
+        ],
+        "NOTES": "10h (12:00 a 22:00), 14h (22:00 a 12:00)"
+    },
+    "Fija DHS": {
+        "URL": "https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19",
+        "POWER": "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[5]/div[1]/table[1]/tbody/tr/td/text()[1]",
+        "ENERGY": [
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[5]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[1]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[5]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[2]",
+            "/html/body/form/div[6]/div/div[1]/div/div/div/div/div/div[5]/div[1]/table[2]/tbody/tr[1]/td[2]/text()[3]"
+        ],
+        "NOTES": "10h (13:00 a 23:00), 8h (23:00 a 1:00 y 7:00-13:00), 6h (1:00 a 7:00)"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Precio coste": {
+        "ENERGY": "0,132000",
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://lucera.es/tarifas-luz-precio-coste"
+    },
+    "Precio fijo": {
+        "ENERGY": "0,114000",
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://lucera.es/tarifas-luz-precio-fijo"
+    }
+}

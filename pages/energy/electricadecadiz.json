@@ -1,0 +1,17 @@
+{
+    "Sin Discriminación Horaria. Tarifa de Acceso 2.0A": {
+        "URL": "http://comercializadora.electricadecadiz.es/contratos-con-potencias-de-hasta-10kw",
+        "POWER": "/html/body/div[2]/section[2]/div[1]/p[5]/span/strong/text()",
+        "ENERGY": "/html/body/div[2]/section[2]/div[1]/div/div[1]/p[3]/span/strong/text()",
+        "NOTES": ""
+    },
+    "Con Discriminación Horaria. Tarifa de Acceso 2.0DHA": {
+        "URL": "http://comercializadora.electricadecadiz.es/contratos-con-potencias-de-hasta-10kw",
+        "POWER": "/html/body/div[2]/section[2]/div[1]/p[5]/span/strong/text()",
+        "ENERGY": [
+            "/html/body/div[2]/section[2]/div[1]/div/div[2]/p[4]/span[2]/strong/text()",
+            "/html/body/div[2]/section[2]/div[1]/div/div[2]/p[5]/span[2]/strong/text()"
+        ],
+        "NOTES": "invierno, 12:00 y las 22:00 horas, verano 13:00 y las 23:00 horas"
+    }
+}

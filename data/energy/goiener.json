@@ -1,0 +1,17 @@
+{
+    "Tarifa 2.0A": {
+        "ENERGY": "0,137601",
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.goiener.com/tarifas/2-0a/"
+    },
+    "Tarifa 2.0DHA": {
+        "ENERGY": [
+            "0,157645",
+            "0,085339"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://www.goiener.com/tarifas/2-0dha/"
+    }
+}

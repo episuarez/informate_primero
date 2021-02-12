@@ -1,0 +1,27 @@
+{
+    "24h": {
+        "ENERGY": "0,119800",
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.peusa.org/llum/?lang=es"
+    },
+    "Mobilidad": {
+        "ENERGY": [
+            "0,156200",
+            "0,091800",
+            "0,067200"
+        ],
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.peusa.org/llum/?lang=es"
+    },
+    "Nocturna": {
+        "ENERGY": [
+            "0,145200",
+            "0,064800"
+        ],
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.peusa.org/llum/?lang=es"
+    }
+}

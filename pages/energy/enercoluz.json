@@ -1,0 +1,17 @@
+{
+    "2.0A ENERGY 24 H": {
+        "URL": "https://enercoluz.com/",
+        "POWER": "/html/body/main/article/div[1]/div/div[4]/div[1]/div/div/div/div[1]/div/div/div[5]/div/p/strong/text()",
+        "ENERGY": "/html/body/main/article/div[1]/div/div[4]/div[1]/div/div/div/div[1]/div/div/div[2]/div/p[2]/strong/text()",
+        "NOTES": ""
+    },
+    "Tarifa 2.0DHA ENELUZ": {
+        "URL": "https://enercoluz.com/",
+        "POWER": "/html/body/main/article/div[1]/div/div[4]/div[1]/div/div/div/div[2]/div/div/div[5]/div/p/strong/text()",
+        "ENERGY": [
+            "/html/body/main/article/div[1]/div/div[4]/div[1]/div/div/div/div[2]/div/div/div[2]/div/p[2]/strong[1]/span/text()",
+            "/html/body/main/article/div[1]/div/div[4]/div[1]/div/div/div/div[2]/div/div/div[2]/div/p[2]/strong[2]/text()"
+        ],
+        "NOTES": ""
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "PREMIUM NOCTURNA Luz": {
+        "ENERGY": [
+            "0,145303",
+            "0,071754"
+        ],
+        "NOTES": "Invierno: De 22:00h a 12:00h (desde noviembre a marzo) Verano: 23:00 a 13h (desde marzo a noviembre)",
+        "POWER": "0,104229",
+        "URL": "https://www.aura-energia.com/tarifas-luz-hogar-peninsula/"
+    },
+    "PREMIUM SIEMPRE Luz": {
+        "ENERGY": "0,125387",
+        "NOTES": "",
+        "POWER": "0,104229",
+        "URL": "https://www.aura-energia.com/tarifas-luz-hogar-peninsula/"
+    }
+}

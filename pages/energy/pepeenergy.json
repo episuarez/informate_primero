@@ -1,0 +1,17 @@
+{
+    "TARIFA PERIQUITO": {
+        "URL": "https://www.pepeenergy.com/tarifas-luz",
+        "POWER": "/html/body/section[2]/div/div[1]/div[1]/div/div[1]/div[2]/span/text()",
+        "ENERGY": "/html/body/section[2]/div/div[1]/div[1]/div/div[1]/div[1]/span[1]/text()",
+        "NOTES": ""
+    },
+    "TARIFA LECHUZA": {
+        "URL": "https://www.pepeenergy.com/tarifas-luz",
+        "POWER": "/html/body/section[2]/div/div[1]/div[2]/div/div[1]/div[2]/span/text()",
+        "ENERGY": [
+            "/html/body/section[2]/div/div[1]/div[2]/div/div[1]/div[1]/div[1]/p[1]/span[1]/text()",
+            "/html/body/section[2]/div/div[1]/div[2]/div/div[1]/div[1]/div[1]/p[2]/span[1]/text()"
+        ],
+        "NOTES": ""
+    }
+}

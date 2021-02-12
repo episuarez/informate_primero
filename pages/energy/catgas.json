@@ -1,0 +1,17 @@
+{
+    "2.0 A": {
+        "URL": "https://catgas.cat/es/tarifes-catllum-llar",
+        "POWER": "/html/body/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[1]/div[2]/p/text()[1]",
+        "ENERGY": "/html/body/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[1]/div[2]/div[1]/span[2]/text()",
+        "NOTES": ""
+    },
+    "2.0 DHA": {
+        "URL": "https://catgas.cat/es/tarifes-catllum-llar",
+        "POWER": "/html/body/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/p/text()[1]",
+        "ENERGY": [
+            "/html/body/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div[1]/span[3]/text()",
+            "/html/body/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div[3]/span[3]/text()"
+        ],
+        "NOTES": ""
+    }
+}

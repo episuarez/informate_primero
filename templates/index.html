@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <title>Infórmate primero</title>
+
+    <style>
+        body {
+            background-color: #FEFEFE;
+            color: #464646;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+        }
+        a, a:hover, a:link, a:visited, a:focus {
+            color: #464646;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .box{
+            text-align: center;
+            padding: 30px 0;
+        }
+        .information {
+            background-color: #FFF3CD;
+            padding: 30px 10%;
+        }
+        .information li {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        
+        <div class="row box">
+            <div class="col">
+                <h1>Infórmate primero</h1>
+                <h2>Información sobre las tarifas de energía</h2>
+                <p>Puedes ver el código de este proyecto <a href="https://github.com/episuarez/informate_primero">aquí</a> y puedes apoyar mi trabajo en <a href="https://www.patreon.com/episuarez">Patreon</a> o en <a href="https://github.com/sponsors/episuarez">Github Sponsor</a>. Aunque con solo compartirlo, me es de gran ayuda.</p>
+            </div>
+        </div>
+
+        <div class="row box information">
+            <div class="col">
+                <h3>Antes de leer la información</h3>
+
+                <ol class="list-group">
+                    <li>Todas las empresas que estan incluidas muestran en sus páginas webs los precios de sus tarifas.</li>
+                    <li>Las tarifas aqui mostradas, no tiene ningún impuesto. Y solo se valora la potencia y el precio de la electricidad, existen más costes en la factura de la luz.</li>
+                    <li>No están recogidas los descuentos, promociones u ofertas especiales de cada empresa o tarifa. (Aunque no cambian casi nada la tarifa)</li>
+                    <li>Las tarifas con PVPC no están incluidas, ya que el precio varia varias veces en el mismo día. Puedes ver el precio en <a href="https://www.esios.ree.es/es/pvpc">Red Eléctrica de España</a> donde tienen detallado estos datos.</li>
+                    <li>Como la recogida de datos esta automatizada, puede existir errores, siempre revisar la página de la empresa. Lo podrás hacer al pinchar sobre la tarifa.</li>
+                    <li>¿Quieres proponer una nueva empresa? ¿Ves un error? Puedes solicitar un poll requests en el <a href="https://github.com/episuarez/informate_primero">repositorio</a> de la aplicación.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for power in data["power_cheap"] %}
+                        <tr>
+                            <td>{{power.COMPANY}}</td>
+                            <td><a href="{{power.URL}}">{{power.RATE}}</a></td>
+                            <td>{{power.POWER}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for power in data["power_expensive"] %}
+                        <tr>
+                            <td>{{power.COMPANY}}</td>
+                            <td><a href="{{power.URL}}">{{power.RATE}}</a></td>
+                            <td>{{power.POWER}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - Gráfico</h3>
+                
+                <h4>Potencia</h4>
+                <div class="power_chart"></div>
+                <script>
+                    new Chartist.Line('.power_chart', {
+                        labels: {{data["power_chart"].labels|safe}},
+                        series: [
+                            {{data["power_chart"].series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate1_cheap"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate1_expensive"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate1_chart"></div>
+                <script>
+                    new Chartist.Line('.energy_rate1_chart', {
+                        labels: {{data["energy_rate1_chart"].labels|safe}},
+                        series: [
+                            {{data["energy_rate1_chart"].series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate2_cheap"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY[0]}} €</td>
+                            <td>{{rate.ENERGY[1]}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate2_expensive"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY[0]}} €</td>
+                            <td>{{rate.ENERGY[1]}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate2_chart1"></div>
+                <h4>Valle</h4>
+                <div class="energy_rate2_chart2"></div>
+                <script>
+                    new Chartist.Line('.energy_rate2_chart1', {
+                        labels: {{data["energy_rate2_chart"].0.labels|safe}},
+                        series: [
+                            {{data["energy_rate2_chart"].0.series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate2_chart2', {
+                        labels: {{data["energy_rate2_chart"].1.labels|safe}},
+                        series: [
+                            {{data["energy_rate2_chart"].1.series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - TOP 5 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                        <th>Precio Supervalle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate3_cheap"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY[0]}} €</td>
+                            <td>{{rate.ENERGY[1]}} €</td>
+                            <td>{{rate.ENERGY[2]}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - TOP 5 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                        <th>Precio Supervalle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        {% for rate in data["rate3_expensive"] %}
+                        <tr>
+                            <td>{{rate.COMPANY}}</td>
+                            <td><a href="{{rate.URL}}">{{rate.RATE}}</a></td>
+                            <td>{{rate.ENERGY[0]}} €</td>
+                            <td>{{rate.ENERGY[1]}} €</td>
+                            <td>{{rate.ENERGY[2]}} €</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate3_chart1"></div>
+                <h4>Valle</h4>
+                <div class="energy_rate3_chart2"></div>
+                <h4>Supervalle</h4>
+                <div class="energy_rate3_chart3"></div>
+                <script>
+                    new Chartist.Line('.energy_rate3_chart1', {
+                        labels: {{data["energy_rate3_chart"].0.labels|safe}},
+                        series: [
+                            {{data["energy_rate3_chart"].0.series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate3_chart2', {
+                        labels: {{data["energy_rate3_chart"].1.labels|safe}},
+                        series: [
+                            {{data["energy_rate3_chart"].1.series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate3_chart3', {
+                        labels: {{data["energy_rate3_chart"].2.labels|safe}},
+                        series: [
+                            {{data["energy_rate3_chart"].2.series|safe}}
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box information">
+            <div class="col">
+                <h3>Consejos</h3>
+
+                <ol class="list-group">
+                    <li>No deis vuestros datos para obtener un precio. Seguramente quieren vuestros datos para acosaros a llamadas.</li>
+                    <li>Tener cuidado con dar el CUPS, pueden haceros malas jugadas. Estar seguros de la empresa y ante la duda, solo darlo en el caso de la contratación.</li>
+                    <li>Valorar si os interesa una taria con una, dos o tres horarios, pues se puede notar el ahorro.</li>
+                    <li>Si teneis que cambiar de tarifa o de empresa no dudeis. ¡No acepteis permanencia de ningún tipo! Al final, os saldrá más caro.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Simulador</h3>
+
+                -
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9ol7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

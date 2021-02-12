@@ -1,0 +1,27 @@
+{
+    "Eco luz": {
+        "ENERGY": "0,145408",
+        "NOTES": "",
+        "POWER": "0,126283",
+        "URL": "https://www.naturgy.es/modal_eco_luz_verprecios"
+    },
+    "Moving Luz": {
+        "ENERGY": [
+            "0,175608",
+            "0,105007",
+            "0,085308"
+        ],
+        "NOTES": "",
+        "POWER": "0,126283",
+        "URL": "https://www.naturgy.es/modal_eco_movingluz_verprecios"
+    },
+    "Noche Luz": {
+        "ENERGY": [
+            "0,169408",
+            "0,093707"
+        ],
+        "NOTES": "",
+        "POWER": "0,126283",
+        "URL": "https://www.naturgy.es/modal_eco_nocheluz_verprecios"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Gana 10 Sin más": {
+        "URL": "https://ganaenergia.com/tarifas-luz",
+        "POWER": "/html/body/div/div[2]/div[2]/div/div[5]/div[2]/div/div[1]/div/div[2]/div/p[1]/text()[1]",
+        "ENERGY": "/html/body/div[1]/div[2]/div[2]/div/div[5]/div[2]/div/div[1]/div/div[2]/div/p[2]/text()",
+        "NOTES": "0,15€/día"
+    }
+}

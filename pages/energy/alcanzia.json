@@ -1,0 +1,25 @@
+{
+    "FIX Mañanas": {
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-mananas/",
+        "POWER": "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[5]/span/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[3]/span/text()",
+            "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[4]/td[3]/span/text()"
+        ],
+        "NOTES": ""
+    },
+    "FIX 24": {
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-24/",
+        "POWER": "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[5]/span/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[3]/span/text()",
+        "NOTES": ""
+    },
+    "FIX Plus": {
+        "URL": "http://alcanzia.es/tarifas-hogares/fix-24-plus/",
+        "POWER": "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[5]/span/text()",
+        "ENERGY": "/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[3]/span/text()",
+        "NOTES": ""
+    }
+}

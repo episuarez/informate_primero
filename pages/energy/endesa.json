@@ -1,0 +1,60 @@
+{
+    "One Luz": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/one/tarifa-one-luz",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[3]/div/div[2]/text()",
+        "NOTES": ""
+    },
+    "One Luz Nocturna": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/one/one-luz-nocturna",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[3]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[3]/div/div[2]/text()"
+        ],
+        "NOTES": "Tarifa barata de 22.00 a 12.00 h (horario de invierno) o de 23.00 a 13.00 h (horario de verano)."
+    },
+    "Tempo Happy 2Horas": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-2-horas",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[3]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[4]/div/div[2]/text()"
+        ],
+        "NOTES": "Dos horas seguidas gratis, las que tú elijas."
+    },
+    "Tempo Happy 50Horas": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-50-horas",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[3]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[4]/div/div[2]/text()"
+        ],
+        "NOTES": "Gratis las 50 horas que más consumes."
+    },
+    "Tempo Happy Día": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-dia",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[3]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[2]/div/ul/li[4]/div/div[2]/text()"
+        ],
+        "NOTES": "Eliges el día de la semana que prefieras y no pagarás nada por la luz que consumas."
+    },
+    "Tempo Verde Supervalle": {
+        "URL": "https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-verde-supervalle",
+        "POWER": "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[2]/div/div[2]/text()",
+        "POWER_OPERATION": "*12/365",
+        "ENERGY": [
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[3]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[4]/div/div[2]/text()",
+            "/html/body/div[1]/main/div/div[3]/section/div/div/div/div/section[2]/div/div/div/div/div[1]/div[1]/div/ul/li[5]/div/div[2]/text()"
+        ],
+        "NOTES": "Horas Supervalle de 1:00 horas a 7:00 horas. Horas Valle de 7:00 horas a 13:00 horas y de 23:00 horas a 1:00 horas. Horas Punta de 13:00 horas a 23:00 horas."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Tarifa 2.0A": {
+        "URL": "https://www.goiener.com/tarifas/2-0a/",
+        "POWER": "/html/body/div[1]/div[2]/div[2]/main/article/div/table/tbody/tr[3]/td[2]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": "/html/body/div[1]/div[2]/div[2]/main/article/div/table/tbody/tr[4]/td[2]/text()",
+        "NOTES": ""
+    },
+    "Tarifa 2.0DHA": {
+        "URL": "https://www.goiener.com/tarifas/2-0dha/",
+        "POWER": "/html/body/div[1]/div[2]/div[2]/main/article/div/table/tbody/tr[3]/td[2]/text()",
+        "POWER_OPERATION": "/365",
+        "ENERGY": [
+            "/html/body/div[1]/div[2]/div[2]/main/article/div/table/tbody/tr[4]/td[2]/text()",
+            "/html/body/div[1]/div[2]/div[2]/main/article/div/table/tbody/tr[4]/td[3]/text()"
+        ],
+        "NOTES": ""
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "MeCambio": {
+        "ENERGY": "0,124500",
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://gesternova.com/tarifas-luz/"
+    },
+    "Noche y d\u00eda": {
+        "ENERGY": [
+            "0,152994",
+            "0,079056"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://gesternova.com/tarifas-luz/"
+    },
+    "SuperValle": {
+        "ENERGY": [
+            "0,152654",
+            "0,085939",
+            "0,072853"
+        ],
+        "NOTES": "",
+        "POWER": "0,115187",
+        "URL": "https://gesternova.com/tarifas-luz/"
+    }
+}

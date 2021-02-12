@@ -1,0 +1,44 @@
+{
+    "Plan Elige 8h": {
+        "ENERGY": [
+            "0,064500",
+            "0,144500"
+        ],
+        "NOTES": "Elige las 8 horas del d\u00eda en las que quieres ahorrar m\u00e1s",
+        "POWER": "0,123287",
+        "URL": "https://www.iberdrola.es/luz/plan-elige-8-horas"
+    },
+    "Plan Estable": {
+        "ENERGY": "0,114656",
+        "NOTES": "",
+        "POWER": "0,123287",
+        "URL": "https://www.iberdrola.es/luz/plan-estable"
+    },
+    "Plan Invierno": {
+        "ENERGY": [
+            "0,080000",
+            "0,160000"
+        ],
+        "NOTES": "Ahorra del 1 de diciembre al 1 de marzo, y los fines de semana a partir del viernes a las 15h.",
+        "POWER": "0,112767",
+        "URL": "https://www.iberdrola.es/luz/plan-invierno"
+    },
+    "Plan Noche": {
+        "ENERGY": [
+            "0,067519",
+            "0,134579"
+        ],
+        "NOTES": "Pagar\u00e1s menos por tu consumo de luz de 23h a 13h en verano, o de 22h a 12h en invierno.",
+        "POWER": "0,123287",
+        "URL": "https://www.iberdrola.es/luz/plan-noche"
+    },
+    "Plan Verano": {
+        "ENERGY": [
+            "0,080000",
+            "0,160000"
+        ],
+        "NOTES": "Ahorrar\u00e1s del 15 de junio al 15 de septiembre y los fines de semana a partir del viernes a las 15h.",
+        "POWER": "0,112767",
+        "URL": "https://www.iberdrola.es/luz/plan-verano"
+    }
+}

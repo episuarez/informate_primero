@@ -1,0 +1,17 @@
+{
+    "Plan Luz D\u00eda y Noche": {
+        "ENERGY": [
+            "0,164646",
+            "0,088110"
+        ],
+        "NOTES": "",
+        "POWER": "0,121649",
+        "URL": "https://www.estabanellenergia.cat/es/planes-hogar/plan-luz-dia-y-noche/"
+    },
+    "Plan Premium": {
+        "ENERGY": "0,139755",
+        "NOTES": "",
+        "POWER": "0,121649",
+        "URL": "https://www.estabanellenergia.cat/es/planes-hogar/plan-premium/"
+    }
+}

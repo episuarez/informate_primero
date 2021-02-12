@@ -1,0 +1,27 @@
+{
+    "Precio Fijo": {
+        "ENERGY": "0,144968",
+        "NOTES": "",
+        "POWER": "0,104228",
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado"
+    },
+    "Precio Fijo con Discriminaci\u00f3n Horaria": {
+        "ENERGY": [
+            "0,166571",
+            "0,091594"
+        ],
+        "NOTES": "",
+        "POWER": "0,104228",
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado"
+    },
+    "Precio Fijo con Discriminaci\u00f3n Horaria Supervalle": {
+        "ENERGY": [
+            "0,168365",
+            "0,099662",
+            "0,083343"
+        ],
+        "NOTES": "",
+        "POWER": "0,104228",
+        "URL": "https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "2.0 A": {
+        "ENERGY": "0,138360",
+        "NOTES": "",
+        "POWER": "0,109520",
+        "URL": "https://catgas.cat/es/tarifes-catllum-llar"
+    },
+    "2.0 DHA": {
+        "ENERGY": [
+            "0,157590",
+            "0,082710"
+        ],
+        "NOTES": "",
+        "POWER": "0,109520",
+        "URL": "https://catgas.cat/es/tarifes-catllum-llar"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "PREMIUM SIEMPRE Luz": {
+        "URL": "https://www.aura-energia.com/tarifas-luz-hogar-peninsula/",
+        "POWER": "/html/body/div/div/div/div/div[2]/div/div[5]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div[3]/div/div/div[2]/div/p[2]/strong/text()",
+        "ENERGY": "/html/body/div/div/div/div/div[2]/div/div[5]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div[4]/div/div/div[2]/div/p[2]/strong/text()",
+        "NOTES": ""
+    },
+    "PREMIUM NOCTURNA Luz": {
+        "URL": "https://www.aura-energia.com/tarifas-luz-hogar-peninsula/",
+        "POWER": "/html/body/div/div/div/div/div[2]/div/div[4]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div[3]/div/div/div[2]/div/p[2]/strong/text()",
+        "ENERGY": [
+            "/html/body/div/div/div/div/div[2]/div/div[4]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div[4]/div/div/div[2]/div/p[2]/strong/text()",
+            "/html/body/div/div/div/div/div[2]/div/div[4]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div[4]/div/div/div[3]/div/p[2]/strong/text()"
+        ],
+        "NOTES": "Invierno: De 22:00h a 12:00h (desde noviembre a marzo) Verano: 23:00 a 13h (desde marzo a noviembre)"
+    }
+}

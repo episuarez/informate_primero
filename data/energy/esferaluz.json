@@ -1,0 +1,17 @@
+{
+    "Luz cl\u00e1sica": {
+        "ENERGY": "0,127000",
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.esferaluz.es/es/"
+    },
+    "Luz cl\u00e1sica 2h": {
+        "ENERGY": [
+            "0,144000",
+            "0,076000"
+        ],
+        "NOTES": "",
+        "POWER": "0,104200",
+        "URL": "https://www.esferaluz.es/es/"
+    }
+}
