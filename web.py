@@ -3,10 +3,12 @@ import json
 import os
 
 from flask import Flask, redirect, render_template, request, url_for
+from flask_frozen import Freezer
 
 from configuration import configuration
 
 app = Flask(__name__);
+freezer = Freezer(app)
 
 @app.route("/")
 def index():
@@ -15,4 +17,4 @@ def index():
 
     return render_template("index.html", data=data);
 
-app.run(debug=True);
+freezer.freeze()

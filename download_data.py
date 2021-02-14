@@ -11,8 +11,8 @@ from configuration import configuration
 
 
 def update_data(company_name=None):
+    download_data_companies(company_name);
     data_processing();
-    #download_data_companies(company_name);
 
 def download_data_companies(company_name=None):
     print("[Start downloading data from companies]");
@@ -116,7 +116,7 @@ def extract_data(result, xpath):
         print(f"No result - {xpath}");
         return None;
     else:
-        return _normalize(result.html.xpath(xpath));
+        return normalize(result.html.xpath(xpath));
 
 def normalize(data):
     if isinstance(data, list):
