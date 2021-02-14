@@ -1,14 +1,15 @@
 import datetime
 import json
 import os
+import shutil
 
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, render_template
 from flask_frozen import Freezer
 
 from configuration import configuration
 
 app = Flask(__name__);
-freezer = Freezer(app)
+freezer = Freezer(app);
 
 @app.route("/")
 def index():
@@ -18,3 +19,4 @@ def index():
     return render_template("index.html", data=data);
 
 freezer.freeze()
+shutil.copyfile("build/index.html", "index.html");

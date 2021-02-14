@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <title>Infórmate primero</title>
+
+    <style>
+        body {
+            background-color: #FEFEFE;
+            color: #464646;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+        }
+        a, a:hover, a:link, a:visited, a:focus {
+            color: #464646;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .box{
+            text-align: center;
+            padding: 30px 0;
+        }
+        .information {
+            background-color: #FFF3CD;
+            padding: 30px 10%;
+        }
+        .information li {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        
+        <div class="row box">
+            <div class="col">
+                <h1>Infórmate primero</h1>
+                <h2>Información sobre las tarifas de energía</h2>
+                <p>Puedes ver el código de este proyecto <a href="https://github.com/episuarez/informate_primero">aquí</a> y puedes apoyar mi trabajo en <a href="https://www.patreon.com/episuarez">Patreon</a> o en <a href="https://github.com/sponsors/episuarez">Github Sponsor</a>. Aunque con solo compartirlo, me es de gran ayuda.</p>
+            </div>
+        </div>
+
+        <div class="row box information">
+            <div class="col">
+                <h3>Antes de leer la información</h3>
+
+                <ol class="list-group">
+                    <li>Todas las empresas que estan incluidas muestran en sus páginas webs los precios de sus tarifas.</li>
+                    <li>Las tarifas aqui mostradas, no tiene ningún impuesto. Y solo se valora la potencia y el precio de la electricidad, existen más costes en la factura de la luz.</li>
+                    <li>No están recogidas los descuentos, promociones u ofertas especiales de cada empresa o tarifa. (Aunque no cambian casi nada la tarifa)</li>
+                    <li>Las tarifas con PVPC no están incluidas, ya que el precio varia varias veces en el mismo día. Puedes ver el precio en <a href="https://www.esios.ree.es/es/pvpc">Red Eléctrica de España</a> donde tienen detallado estos datos.</li>
+                    <li>Como la recogida de datos esta automatizada, puede existir errores, siempre revisar la página de la empresa. Lo podrás hacer al pinchar sobre la tarifa.</li>
+                    <li>¿Quieres proponer una nueva empresa? ¿Ves un error? Puedes solicitar un poll requests en el <a href="https://github.com/episuarez/informate_primero">repositorio</a> de la aplicación.</li>
+                    <li>Revisa por si puedes acceder al bono social de electricidad. <a href="https://www.bonosocial.gob.es/#inicio">Más información</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>bulb</td>
+                            <td><a href="https://bulb.es/tarifa-electricidad/">Nuestra tarifa</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>esferaluz</td>
+                            <td><a href="https://www.esferaluz.es/es/">Luz clásica</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>esferaluz</td>
+                            <td><a href="https://www.esferaluz.es/es/">Luz clásica 2h</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>lucera</td>
+                            <td><a href="https://lucera.es/tarifas-luz-precio-coste">Precio coste</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>lucera</td>
+                            <td><a href="https://lucera.es/tarifas-luz-precio-fijo">Precio fijo</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>pepeenergy</td>
+                            <td><a href="https://www.pepeenergy.com/tarifas-luz">TARIFA LECHUZA</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>pepeenergy</td>
+                            <td><a href="https://www.pepeenergy.com/tarifas-luz">TARIFA PERIQUITO</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">24h</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">Mobilidad</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">Nocturna</a></td>
+                            <td>0,104200 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-2-horas">Tempo Happy 2Horas</a></td>
+                            <td>0,131002 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-50-horas">Tempo Happy 50Horas</a></td>
+                            <td>0,131002 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-dia">Tempo Happy Día</a></td>
+                            <td>0,131002 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-24-horas-10kw/">Flash 24 horas</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-noche-10kw/">Flash Noche</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/">Flash ahorro</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/">Hogar 24 horas</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>chcenergia</td>
+                            <td><a href="https://chcenergia.es/tarifa-luz/confianza-base/">Confianza Base &lt; 3KW</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>chcenergia</td>
+                            <td><a href="https://chcenergia.es/tarifa-luz/confianza-base-dia-y-noche/">Confianza Base Día y Noche</a></td>
+                            <td>0,131626 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>ganaenergia</td>
+                            <td><a href="https://ganaenergia.com/tarifas-luz">Gana 10 Sin más</a></td>
+                            <td>None €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Potencia - Gráfico</h3>
+                
+                <h4>Potencia</h4>
+                <div class="power_chart"></div>
+                <script>
+                    new Chartist.Line('.power_chart', {
+                        labels: ['0,10', '0,11', '0,12', '0,13', 'None'],
+                        series: [
+                            [38, 22, 14, 9, 1]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>alcanzia</td>
+                            <td><a href="http://alcanzia.es/tarifas-hogares/fix-24-plus/">FIX Plus</a></td>
+                            <td>0,106698 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>enercoluz</td>
+                            <td><a href="https://enercoluz.com/">2.0A ENERGY 24 H</a></td>
+                            <td>0,109275 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bulb</td>
+                            <td><a href="https://bulb.es/tarifa-electricidad/">Nuestra tarifa</a></td>
+                            <td>0,112700 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>lucera</td>
+                            <td><a href="https://lucera.es/tarifas-luz-precio-fijo">Precio fijo</a></td>
+                            <td>0,114000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>iberdrola</td>
+                            <td><a href="https://www.iberdrola.es/luz/plan-estable">Plan Estable</a></td>
+                            <td>0,114656 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">24h</a></td>
+                            <td>0,119800 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>alcanzia</td>
+                            <td><a href="http://alcanzia.es/tarifas-hogares/fix-24/">FIX 24</a></td>
+                            <td>0,121540 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>pepeenergy</td>
+                            <td><a href="https://www.pepeenergy.com/tarifas-luz">TARIFA PERIQUITO</a></td>
+                            <td>0,122260 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>gesternova</td>
+                            <td><a href="https://gesternova.com/tarifas-luz/">MeCambio</a></td>
+                            <td>0,124500 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>aura-energia</td>
+                            <td><a href="https://www.aura-energia.com/tarifas-luz-hogar-peninsula/">PREMIUM SIEMPRE Luz</a></td>
+                            <td>0,125387 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Indexada 24h</a></td>
+                            <td>0,139960 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>teramelcor</td>
+                            <td><a href="https://www.teramelcor.es/preciofijo.html">Electricidad 2.0A</a></td>
+                            <td>0,144961 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>energiaXXI</td>
+                            <td><a href="https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado">Precio Fijo</a></td>
+                            <td>0,144968 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>naturgy</td>
+                            <td><a href="https://www.naturgy.es/modal_eco_luz_verprecios">Eco luz</a></td>
+                            <td>0,145408 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>holaluz</td>
+                            <td><a href="https://www.holaluz.com/tarifas-electricidad/">Clásica</a></td>
+                            <td>0,149000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>holaluz</td>
+                            <td><a href="https://www.holaluz.com/tarifas-electricidad/">Sin Sorpresas</a></td>
+                            <td>0,149000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-24-horas-10kw/">Flash 24 horas</a></td>
+                            <td>0,149635 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>watium</td>
+                            <td><a href="https://watium.es/">Tarifa Básica 2.0 A</a></td>
+                            <td>0,164914 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/">Hogar 24 horas</a></td>
+                            <td>0,173398 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>ganaenergia</td>
+                            <td><a href="https://ganaenergia.com/tarifas-luz">Gana 10 Sin más</a></td>
+                            <td>None €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (1 precio) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate1_chart"></div>
+                <script>
+                    new Chartist.Line('.energy_rate1_chart', {
+                        labels: ['0,10', '0,11', '0,12', '0,13', '0,14', '0,16', '0,17', 'None'],
+                        series: [
+                            [2, 4, 9, 15, 6, 1, 1, 1]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - TOP 10 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-2-horas">Tempo Happy 2Horas</a></td>
+                            <td>0 €</td>
+                            <td>0,163636 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-50-horas">Tempo Happy 50Horas</a></td>
+                            <td>0 €</td>
+                            <td>0,163636 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-happy-dia">Tempo Happy Día</a></td>
+                            <td>0 €</td>
+                            <td>0,163636 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>iberdrola</td>
+                            <td><a href="https://www.iberdrola.es/luz/plan-elige-8-horas">Plan Elige 8h</a></td>
+                            <td>0,064500 €</td>
+                            <td>0,144500 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>iberdrola</td>
+                            <td><a href="https://www.iberdrola.es/luz/plan-noche">Plan Noche</a></td>
+                            <td>0,067519 €</td>
+                            <td>0,134579 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>iberdrola</td>
+                            <td><a href="https://www.iberdrola.es/luz/plan-invierno">Plan Invierno</a></td>
+                            <td>0,080000 €</td>
+                            <td>0,160000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>iberdrola</td>
+                            <td><a href="https://www.iberdrola.es/luz/plan-verano">Plan Verano</a></td>
+                            <td>0,080000 €</td>
+                            <td>0,160000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>serosense</td>
+                            <td><a href="https://www.serosense.com/es/tarifas-electrica-serosense.html">TARIFA 2.0.A DH</a></td>
+                            <td>0,139856 €</td>
+                            <td>0,073864 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>alcanzia</td>
+                            <td><a href="http://alcanzia.es/tarifas-hogares/fix-mananas/">FIX Mañanas</a></td>
+                            <td>0,141880 €</td>
+                            <td>0,071510 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>flipenergia</td>
+                            <td><a href="http://flipenergia.com/tarifas#tarifashorarias">DISCRIMINACIÓN HORARIA</a></td>
+                            <td>0,142450 €</td>
+                            <td>0,065200 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - TOP 10 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>aldroenergia</td>
+                            <td><a href="https://aldroenergia.com/tarifas-luz-y-gas/luz/">PREMIUM NOCTURNA Luz</a></td>
+                            <td>0,160146 €</td>
+                            <td>0,087293 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>syder</td>
+                            <td><a href="https://www.syder.es/tarifas">Tarifa 2.0DHA</a></td>
+                            <td>0,160189 €</td>
+                            <td>0,088028 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>escandinavaelectricidad</td>
+                            <td><a href="https://escandinavaelectricidad.es/tarifas/">Tarifa NATT</a></td>
+                            <td>0,163000 €</td>
+                            <td>0,087000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>electricadecadiz</td>
+                            <td><a href="http://comercializadora.electricadecadiz.es/contratos-con-potencias-de-hasta-10kw">Con Discriminación Horaria. Tarifa de Acceso 2.0DHA</a></td>
+                            <td>0,163270 €</td>
+                            <td>0,082145 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Indexada Dúo</a></td>
+                            <td>0,163558 €</td>
+                            <td>0,084251 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>estabanellenergia</td>
+                            <td><a href="https://www.estabanellenergia.cat/es/planes-hogar/plan-luz-dia-y-noche/">Plan Luz Día y Noche</a></td>
+                            <td>0,164646 €</td>
+                            <td>0,088110 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>watium</td>
+                            <td><a href="https://watium.es/">Tarifa Básica 2.0 DHA</a></td>
+                            <td>0,164914 €</td>
+                            <td>0,106521 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>energiaXXI</td>
+                            <td><a href="https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado">Precio Fijo con Discriminación Horaria</a></td>
+                            <td>0,166571 €</td>
+                            <td>0,091594 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-noche-10kw/">Flash Noche</a></td>
+                            <td>0,167190 €</td>
+                            <td>0,092353 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>naturgy</td>
+                            <td><a href="https://www.naturgy.es/modal_eco_nocheluz_verprecios">Noche Luz</a></td>
+                            <td>0,169408 €</td>
+                            <td>0,093707 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (2 precios) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate2_chart1"></div>
+                <h4>Valle</h4>
+                <div class="energy_rate2_chart2"></div>
+                <script>
+                    new Chartist.Line('.energy_rate2_chart1', {
+                        labels: ['0', '0,06', '0,08', '0,13', '0,14', '0,15', '0,16'],
+                        series: [
+                            [3, 2, 2, 1, 9, 8, 10]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate2_chart2', {
+                        labels: ['0,16', '0,14', '0,13', '0,07', '0,06', '0,08', '0,15', '0,10', '0,09'],
+                        series: [
+                            [5, 1, 1, 7, 5, 11, 1, 1, 3]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - TOP 5 - Más baratos</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                        <th>Precio Supervalle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>gesternova</td>
+                            <td><a href="https://gesternova.com/tarifas-luz/">SuperValle</a></td>
+                            <td>0,152654 €</td>
+                            <td>0,085939 €</td>
+                            <td>0,072853 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/hogar-ahorro-10kw/">Hogar Ahorro</a></td>
+                            <td>0,155854 €</td>
+                            <td>0,088473 €</td>
+                            <td>0,070335 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">Mobilidad</a></td>
+                            <td>0,156200 €</td>
+                            <td>0,091800 €</td>
+                            <td>0,067200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Indexada DHS</a></td>
+                            <td>0,157928 €</td>
+                            <td>0,086206 €</td>
+                            <td>0,061163 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Fija DHS</a></td>
+                            <td>0,158900 €</td>
+                            <td>0,082560 €</td>
+                            <td>0,069000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>syder</td>
+                            <td><a href="https://www.syder.es/tarifas">Tarifa 2.0DHS</a></td>
+                            <td>0,160139 €</td>
+                            <td>0,096136 €</td>
+                            <td>0,080082 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-verde-supervalle">Tempo Verde Supervalle</a></td>
+                            <td>0,162893 €</td>
+                            <td>0,098486 €</td>
+                            <td>0,086218 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>energiaXXI</td>
+                            <td><a href="https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado">Precio Fijo con Discriminación Horaria Supervalle</a></td>
+                            <td>0,168365 €</td>
+                            <td>0,099662 €</td>
+                            <td>0,083343 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/">Flash ahorro</a></td>
+                            <td>0,173398 €</td>
+                            <td>0,106019 €</td>
+                            <td>0,088227 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>naturgy</td>
+                            <td><a href="https://www.naturgy.es/modal_eco_movingluz_verprecios">Moving Luz</a></td>
+                            <td>0,175608 €</td>
+                            <td>0,105007 €</td>
+                            <td>0,085308 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - TOP 5 - Más caros</h3>
+
+                <table class="table table-striped table-sm">
+                    <thead class="table-dark">
+                        <th>Empresa</th>
+                        <th>Tarifa</th>
+                        <th>Precio Punta (KW/dia)</th>
+                        <th>Precio Valle (KW/dia)</th>
+                        <th>Precio Supervalle (KW/dia)</th>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>gesternova</td>
+                            <td><a href="https://gesternova.com/tarifas-luz/">SuperValle</a></td>
+                            <td>0,152654 €</td>
+                            <td>0,085939 €</td>
+                            <td>0,072853 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/hogar-ahorro-10kw/">Hogar Ahorro</a></td>
+                            <td>0,155854 €</td>
+                            <td>0,088473 €</td>
+                            <td>0,070335 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>peusa</td>
+                            <td><a href="https://www.peusa.org/llum/?lang=es">Mobilidad</a></td>
+                            <td>0,156200 €</td>
+                            <td>0,091800 €</td>
+                            <td>0,067200 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Indexada DHS</a></td>
+                            <td>0,157928 €</td>
+                            <td>0,086206 €</td>
+                            <td>0,061163 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>eresenergia</td>
+                            <td><a href="https://www.eresenergia.com/es/seccion/tarifa-10kw-id-19">Fija DHS</a></td>
+                            <td>0,158900 €</td>
+                            <td>0,082560 €</td>
+                            <td>0,069000 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>syder</td>
+                            <td><a href="https://www.syder.es/tarifas">Tarifa 2.0DHS</a></td>
+                            <td>0,160139 €</td>
+                            <td>0,096136 €</td>
+                            <td>0,080082 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>endesa</td>
+                            <td><a href="https://www.endesa.com/es/luz-y-gas/luz/tempo/tempo-verde-supervalle">Tempo Verde Supervalle</a></td>
+                            <td>0,162893 €</td>
+                            <td>0,098486 €</td>
+                            <td>0,086218 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>energiaXXI</td>
+                            <td><a href="https://www.energiaxxi.com/pvpc-precio-voluntario-pequeno-consumidor-mercado-regulado">Precio Fijo con Discriminación Horaria Supervalle</a></td>
+                            <td>0,168365 €</td>
+                            <td>0,099662 €</td>
+                            <td>0,083343 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>bassol</td>
+                            <td><a href="https://www.bassolsenergia.com/es/tarifas/flash-ahorro-10kw/">Flash ahorro</a></td>
+                            <td>0,173398 €</td>
+                            <td>0,106019 €</td>
+                            <td>0,088227 €</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>naturgy</td>
+                            <td><a href="https://www.naturgy.es/modal_eco_movingluz_verprecios">Moving Luz</a></td>
+                            <td>0,175608 €</td>
+                            <td>0,105007 €</td>
+                            <td>0,085308 €</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Electricidad (3 precios) - Gráfico</h3>
+
+                <h4>Punta</h4>
+                <div class="energy_rate3_chart1"></div>
+                <h4>Valle</h4>
+                <div class="energy_rate3_chart2"></div>
+                <h4>Supervalle</h4>
+                <div class="energy_rate3_chart3"></div>
+                <script>
+                    new Chartist.Line('.energy_rate3_chart1', {
+                        labels: ['0,15', '0,16', '0,17'],
+                        series: [
+                            [5, 3, 2]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate3_chart2', {
+                        labels: ['0,08', '0,09', '0,10'],
+                        series: [
+                            [4, 4, 2]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                    new Chartist.Line('.energy_rate3_chart3', {
+                        labels: ['0,07', '0,06', '0,08'],
+                        series: [
+                            [2, 3, 5]
+                        ]
+                    }, {
+                        fullWidth: true,
+                        height: 300,
+                        low: 0,
+                        showArea: true
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="row box information">
+            <div class="col">
+                <h3>Consejos</h3>
+
+                <ol class="list-group">
+                    <li>No deis vuestros datos para obtener un precio. Seguramente quieren vuestros datos para acosaros a llamadas.</li>
+                    <li>Tener cuidado con dar el CUPS, pueden haceros malas jugadas. Estar seguros de la empresa y ante la duda, solo darlo en el caso de la contratación.</li>
+                    <li>Valorar si os interesa una taria con una, dos o tres horarios, pues se puede notar el ahorro.</li>
+                    <li>Si teneis que cambiar de tarifa o de empresa no dudeis. ¡No acepteis permanencia de ningún tipo! Al final, os saldrá más caro.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="col">
+                <h3>Simulador</h3>
+
+                -
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9ol7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
