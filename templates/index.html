@@ -412,16 +412,76 @@
             <div class="col">
                 <h3>Simulador</h3>
 
-                -
+                <div class="simulator">
+                    <div class="row">
+                        <div class="col">
+                            <!--<div class="mb-3">
+                                <select class="form-select" aria-label="Tipo de tarifa" id="tarifa">
+                                    <option selected>Elige una opción</option>
+                                    <option value="1">Una tarifa</option>
+                                    <option value="2">Dos tarifas</option>
+                                    <option value="3">Tres tarifas</option>
+                                </select>
+                            </div>-->
+
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Potencia" id="potencia">
+                                    <option selected>Elige una opción</option>
+                                    <option value="1.15">1,15 kW</option>
+                                    <option value="2.3">2,3 kW</option>
+                                    <option value="3.45">3,45 kW</option>
+                                    <option value="4.6">4,6 kW</option>
+                                    <option value="5.75">5,75 kW</option>
+                                    <option value="6.9">6,9 kW</option>
+                                    <option value="8.05">8,05 kW</option>
+                                    <option value="9.2">9,2 kW</option>
+                                    <option value="10.35">10,35 kW</option>
+                                    <option value="14.49">14,49 kW</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="consumo" placeholder="Consumo">
+                            </div>
+
+                            <button type="button" class="btn btn-primary" onclick="simulator()">Calcular</button>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <textarea style="resize:none" class="form-control" id="resultado" rows="8" readonly></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function simulator() {
+                        var potencia = parseFloat(document.getElementById("potencia").value);
+                        var consumo = parseFloat(document.getElementById("consumo").value);
+                        //var tarifa = parseFloat(document.getElementById("tarifa").value);
+
+                        var resultado = document.getElementById("resultado");
+
+                        resultado.innerHTML = `Simulador 1 Tarifa - Más barata:
+    {{data["simulator_rate1"][0]["COMPANY"]}} - {{data["simulator_rate1"][0]["RATE"]}} - {{data["simulator_rate1"][0]["URL"]}}
+    Potencia: ${potencia}KW * {{data["simulator_rate1"][0]["POWER"]}}KW/día * 30días = ${potencia * {{data["simulator_rate1"][0]["POWER"]}} * 30}€
+    Electricidad: ${consumo}KW * {{data["simulator_rate1"][0]["ENERGY"]}}KWh = ${consumo * {{data["simulator_rate1"][0]["ENERGY"]}}}€;
+Simulador 2 Tarifa - Más cara:
+    {{data["simulator_rate1"][1]["COMPANY"]}} - {{data["simulator_rate1"][1]["RATE"]}} - {{data["simulator_rate1"][1]["URL"]}}
+    Potencia: ${potencia}KW * {{data["simulator_rate1"][1]["POWER"]}}KW/día * 30días = ${potencia * {{data["simulator_rate1"][1]["POWER"]}} * 30}€
+    Electricidad: ${consumo}KW * {{data["simulator_rate1"][1]["ENERGY"]}}KWh = ${consumo * {{data["simulator_rate1"][1]["ENERGY"]}}}€;
+                        `;
+
+                        
+                    };
+                </script>
             </div>
         </div>
 
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9ol7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>

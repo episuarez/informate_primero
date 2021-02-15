@@ -898,7 +898,47 @@
             <div class="col">
                 <h3>Simulador</h3>
 
-                -
+                <div class="simulator">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Tipo de tarifa" id="tarifa">
+                                    <option selected>Elige una opción</option>
+                                    <option value="1">Una tarifa</option>
+                                    <option value="2">Dos tarifas</option>
+                                    <option value="3">Tres tarifas</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Potencia" id="potencia">
+                                    <option selected>Elige una opción</option>
+                                    <option value="1,15">1,15 kW</option>
+                                    <option value="2,3">2,3 kW</option>
+                                    <option value="3,45">3,45 kW</option>
+                                    <option value="4,6">4,6 kW</option>
+                                    <option value="5,75">5,75 kW</option>
+                                    <option value="6,9">6,9 kW</option>
+                                    <option value="8,05">8,05 kW</option>
+                                    <option value="9,2">9,2 kW</option>
+                                    <option value="10,35">10,35 kW</option>
+                                    <option value="14,49">14,49 kW</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="consumo" placeholder="Consumo">
+                            </div>
+
+                            <button type="button" class="btn btn-primary">Calcular</button>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <textarea style="resize:none" class="form-control" id="resultado" rows="8" readonly></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

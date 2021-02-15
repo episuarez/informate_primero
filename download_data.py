@@ -11,7 +11,7 @@ from configuration import configuration
 
 
 def update_data(company_name=None):
-    download_data_companies(company_name);
+    #download_data_companies(company_name);
     data_processing();
 
 def download_data_companies(company_name=None):
@@ -215,6 +215,16 @@ def data_processing():
     energy_rate3_chart[2]["series"] = list(dict(Counter(energy_rate3_chart[2]["labels"])).values());
     energy_rate3_chart[2]["labels"] = list(dict(Counter(energy_rate3_chart[2]["labels"])).keys());
 
+    # Datos simulador
+    simulator_rate1 = [];
+
+    for company, company_data in data.items():
+        for rate, rate_data in company_data.items():
+            if not isinstance(rate_data["ENERGY"], list):
+                simulator_rate1.append( { "COMPANY": company, "RATE": rate, "URL": rate_data["URL"], "POWER": rate_data["POWER"].replace(",", "."), "ENERGY": rate_data["ENERGY"].replace(",", ".") } );
+
+    simulator_rate1.sort(key=lambda item : (item["ENERGY"], item["POWER"]));
+
     data = {
         "power_cheap": power[:10],
         "power_expensive": power[-10:],
@@ -227,7 +237,8 @@ def data_processing():
         "energy_rate2_chart": energy_rate2_chart,
         "rate3_cheap": rate3[:10],
         "rate3_expensive": rate3[-10:],
-        "energy_rate3_chart": energy_rate3_chart
+        "energy_rate3_chart": energy_rate3_chart,
+        "simulator_rate1": [ simulator_rate1[0], simulator_rate1[-2] ]
     };
 
     with open("data/data.json", "w", encoding="utf-8") as file_data:
